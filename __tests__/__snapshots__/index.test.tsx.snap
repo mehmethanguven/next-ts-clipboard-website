@@ -1,0 +1,355 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should to match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <section
+      id="hero"
+    >
+      <div
+        class="section-container mb-20 pt-16"
+      >
+        <img
+          alt=""
+          class="mx-auto my-16 h-auto w-auto "
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          src="/images/logo.svg"
+          style="color: transparent;"
+          width="0"
+        />
+        <h3
+          class=""
+        >
+          A history of everything you copy
+        </h3>
+        <p
+          class=""
+        >
+          Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.
+        </p>
+        <div
+          class="button-container mt-10"
+        >
+          <a
+            class="rounded-full bg-strongCyan p-4 px-8 shadow-lg duration-200 hover:opacity-80"
+            href="#"
+          >
+            Download for iOS
+          </a>
+          <a
+            class="rounded-full bg-lightBlue p-4 px-8 shadow-lg duration-200 hover:opacity-80"
+            href="#"
+          >
+            Download for Mac
+          </a>
+        </div>
+      </div>
+    </section>
+    <section
+      id="snippets"
+    >
+      <div
+        class="section-container mb-20 pt-16"
+      >
+        <h3>
+          Keep track of your snippets
+        </h3>
+        <p
+          class="section-content mb-24 text-xl"
+        >
+          Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.
+        </p>
+      </div>
+    </section>
+    <section
+      id="features"
+    >
+      <div
+        class="section-container pt-16"
+      >
+        <div
+          class="relative flex flex-col md:flex-row md:space-x-32"
+        >
+          <div
+            class="md:w-1/2"
+          >
+            <img
+              alt=""
+              class="top-0 right-[50%] h-auto w-auto md:absolute"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              sizes="100vh"
+              src="/_next/image?url=%2Fimages%2Fimage-computer.png&w=3840&q=75"
+              srcset="/_next/image?url=%2Fimages%2Fimage-computer.png&w=16&q=75 16w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=32&q=75 32w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=48&q=75 48w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=64&q=75 64w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=96&q=75 96w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=128&q=75 128w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=256&q=75 256w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=384&q=75 384w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fimage-computer.png&w=3840&q=75 3840w"
+              style="color: transparent;"
+              width="0"
+            />
+          </div>
+          <div
+            class="mt-16 mb-24 flex flex-col space-y-12 text-xl md:mb-60 md:w-1/2 md:pl-16 md:text-left"
+          >
+            <div>
+              <h5>
+                Quick Search
+              </h5>
+              <p
+                class="max-w-md text-grayishBlue"
+              >
+                Easily search your snippets by content, category, web address, application, and more.
+              </p>
+            </div>
+            <div>
+              <h5>
+                iCloud Sync
+              </h5>
+              <p
+                class="max-w-md text-grayishBlue"
+              >
+                Instantly saves and syncs snippets across all your devices.
+              </p>
+            </div>
+            <div>
+              <h5>
+                Completely History
+              </h5>
+              <p
+                class="max-w-md text-grayishBlue"
+              >
+                Retrieve any snippets from the first moment you started using the app.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      id="access"
+    >
+      <div
+        class="section-container"
+      >
+        <h3>
+          Access Clipboard anywhere
+        </h3>
+        <p
+          class="mx-auto mb-24 max-w-md text-xl text-grayishBlue"
+        >
+          Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.
+        </p>
+        <img
+          alt=""
+          class="mx-auto h-auto w-auto"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="100vh"
+          src="/_next/image?url=%2Fimages%2Fimage-devices.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2Fimage-devices.png&w=16&q=75 16w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=32&q=75 32w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=48&q=75 48w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=64&q=75 64w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=96&q=75 96w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=128&q=75 128w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=256&q=75 256w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=384&q=75 384w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fimage-devices.png&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+      </div>
+    </section>
+    <section
+      id="supercharge"
+    >
+      <div
+        class="section-container mb-20 pt-16"
+      >
+        <h3>
+          Supercharge your workflow
+        </h3>
+        <p
+          class="section-content mb-16 text-xl"
+        >
+          We've got the tools to boost your productivity.
+        </p>
+        <div
+          class="flex flex-col items-center justify-between space-y-16 md:flex-row md:space-y-0 md:space-x-12"
+        >
+          <div
+            class="flex flex-col items-center space-y-5"
+          >
+            <img
+              alt=""
+              class="mb-6 w-auto"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="/images/icon-blacklist.svg"
+              style="color: transparent;"
+              width="0"
+            />
+            <h5>
+              Create Blacklists
+            </h5>
+            <p
+              class="max-w-md text-grayishBlue"
+            >
+               Easily search your snippets by content, category, web address, application, and more.
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center space-y-5"
+          >
+            <img
+              alt=""
+              class="mb-6 w-auto"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="/images/icon-text.svg"
+              style="color: transparent;"
+              width="0"
+            />
+            <h5>
+              Plain Text Snippets
+            </h5>
+            <p
+              class="max-w-md text-grayishBlue"
+            >
+               Remove unwanted formatting from copied text for a consistent look.
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center space-y-5"
+          >
+            <img
+              alt=""
+              class="mb-6 w-auto"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="/images/icon-preview.svg"
+              style="color: transparent;"
+              width="0"
+            />
+            <h5>
+              Sneak Preview
+            </h5>
+            <p
+              class="max-w-md text-grayishBlue"
+            >
+               Quick preview of all snippets on your Clipboard for easy access.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      id="references"
+    >
+      <div
+        class="section-container my-40 flex flex-col items-center justify-between space-y-16 md:flex-row md:space-y-0"
+      >
+        <img
+          alt=""
+          class="w-40"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="100vh"
+          src="/_next/image?url=%2Fimages%2Flogo-google.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2Flogo-google.png&w=16&q=75 16w, /_next/image?url=%2Fimages%2Flogo-google.png&w=32&q=75 32w, /_next/image?url=%2Fimages%2Flogo-google.png&w=48&q=75 48w, /_next/image?url=%2Fimages%2Flogo-google.png&w=64&q=75 64w, /_next/image?url=%2Fimages%2Flogo-google.png&w=96&q=75 96w, /_next/image?url=%2Fimages%2Flogo-google.png&w=128&q=75 128w, /_next/image?url=%2Fimages%2Flogo-google.png&w=256&q=75 256w, /_next/image?url=%2Fimages%2Flogo-google.png&w=384&q=75 384w, /_next/image?url=%2Fimages%2Flogo-google.png&w=640&q=75 640w, /_next/image?url=%2Fimages%2Flogo-google.png&w=750&q=75 750w, /_next/image?url=%2Fimages%2Flogo-google.png&w=828&q=75 828w, /_next/image?url=%2Fimages%2Flogo-google.png&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Flogo-google.png&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Flogo-google.png&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Flogo-google.png&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Flogo-google.png&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <img
+          alt=""
+          class="w-40"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="100vh"
+          src="/_next/image?url=%2Fimages%2Flogo-ibm.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2Flogo-ibm.png&w=16&q=75 16w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=32&q=75 32w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=48&q=75 48w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=64&q=75 64w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=96&q=75 96w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=128&q=75 128w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=256&q=75 256w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=384&q=75 384w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=640&q=75 640w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=750&q=75 750w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=828&q=75 828w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Flogo-ibm.png&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <img
+          alt=""
+          class="w-40"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="100vh"
+          src="/_next/image?url=%2Fimages%2Flogo-microsoft.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2Flogo-microsoft.png&w=16&q=75 16w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=32&q=75 32w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=48&q=75 48w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=64&q=75 64w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=96&q=75 96w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=128&q=75 128w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=256&q=75 256w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=384&q=75 384w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=640&q=75 640w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=750&q=75 750w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=828&q=75 828w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Flogo-microsoft.png&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <img
+          alt=""
+          class="w-40 "
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="100vh"
+          src="/_next/image?url=%2Fimages%2Flogo-hp.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2Flogo-hp.png&w=16&q=75 16w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=32&q=75 32w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=48&q=75 48w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=64&q=75 64w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=96&q=75 96w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=128&q=75 128w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=256&q=75 256w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=384&q=75 384w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=640&q=75 640w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=750&q=75 750w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=828&q=75 828w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Flogo-hp.png&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <img
+          alt=""
+          class="w-40 "
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="100vh"
+          src="/_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=16&q=75 16w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=32&q=75 32w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=48&q=75 48w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=64&q=75 64w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=96&q=75 96w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=128&q=75 128w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=256&q=75 256w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=384&q=75 384w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=640&q=75 640w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=750&q=75 750w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=828&q=75 828w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Flogo-vector-graphics.png&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+      </div>
+    </section>
+    <section
+      id="bottom"
+    >
+      <div
+        class="section-container mb-20 pt-16"
+      >
+        <h3>
+          Clipboard for iOS and MacOS
+        </h3>
+        <p
+          class="section-content mb-10 text-xl"
+        >
+          Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you're ready to start adding to your clipboard.
+        </p>
+        <div
+          class="button-container"
+        >
+          <a
+            class="rounded-full bg-strongCyan p-4 px-8 shadow-lg duration-200 hover:opacity-80"
+            href="#"
+          >
+            Download for iOS
+          </a>
+          <a
+            class="rounded-full bg-lightBlue p-4 px-8 shadow-lg duration-200 hover:opacity-80"
+            href="#"
+          >
+            Download for Mac
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</DocumentFragment>
+`;
