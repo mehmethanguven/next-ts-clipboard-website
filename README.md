@@ -1,4 +1,17 @@
-This is a Next.js Clipboard Website demo (Next.js - Typescript - Jest - Cypress - Tailwindcss - Eslint - Prettier - Lintstaged - Hasky)
+This is a Next.js Tailwindcss Website demo (Next.js - Typescript - Jest - Cypress - Tailwindcss - Eslint - Prettier - Lintstaged - Hasky)
+
+## Reference
+
+[Tailwind CSS From Scratch | Learn By Building Projects](https://www.udemy.com/course/tailwind-from-scratch/)
+
+## Live on Vercel
+
+<a href="https://next-ts-clipboard-website-mehmethanguven.vercel.app/" target="_blank">Live Preview</a>
+
+## Some Screenshots
+
+<img src="public/images/demo1.png" alt="demo" style="height: 600px; width:800px; margin: 10px;"/>
+<img src="public/images/demo2.png" alt="demo" style="height: 600px; width:800px; margin: 10px;"/>
 
 ## Getting Started
 
