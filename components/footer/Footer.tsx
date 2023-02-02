@@ -1,11 +1,11 @@
-import { footerNavLinks, socialLinks } from 'data/data'
+import { footerNavLinks, socialLinks } from 'data'
 import Image from 'next/image'
-import NavItem from './NavItem'
+import NavItem from '../header/NavItem'
 import SocialItem from './SocialItem'
 
 const Footer = () => {
   return (
-    <footer className="mt-10 bg-slate-900 shadow-lg">
+    <footer className="mt-10 shadow-lg bg-slate-900">
       <div className="section-container">
         <div className="flex flex-col items-center justify-between md:flex-row">
           {/* <!-- Image --> */}
@@ -15,10 +15,10 @@ const Footer = () => {
             sizes="100vh"
             src="/images/logo.svg"
             alt=""
-            className="h-auto w-auto scale-50 "
+            className="w-auto h-auto scale-50 "
           />
           {/* <!-- Container for Menus & Social --> */}
-          <div className="mb-10 flex flex-1 flex-col items-center justify-between space-y-6 text-grayishBlue md:mb-0 md:flex-row md:space-y-0">
+          <div className="flex flex-col items-center justify-between flex-1 mb-10 space-y-6 text-grayishBlue md:mb-0 md:flex-row md:space-y-0">
             {/* <!-- Menus --> */}
             <div className="grid max-w-lg grid-cols-1 space-y-4 md:ml-24 md:grid-cols-3 md:gap-x-24 md:space-y-0">
               {/* <!-- Menu 1 --> */}
@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
 
             {/* <!-- Social Icons --> */}
-            <div className="flex w-32 justify-between py-1">
+            <div className="flex items-center justify-between w-32 py-1">
               {(socialLinks || []).map((item, id) => (
                 <SocialItem key={id} {...item} />
               ))}

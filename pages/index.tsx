@@ -4,7 +4,7 @@ import Features from '@/components/Features'
 import Hero from '@/components/Hero'
 import References from '@/components/References'
 import Snippets from '@/components/Snippets'
-import Supercharge from '@/components/Supercharge'
+import Supercharge from '@/components/supercharge/Supercharge'
 
 export default function Home() {
   return (

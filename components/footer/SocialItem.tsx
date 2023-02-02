@@ -11,7 +11,7 @@ const SocialItem = ({ title, imageUrl, url }: ISocialLink) => {
         sizes="100vh"
         src={imageUrl}
         alt={title}
-        className="h-auto w-auto p-1 transition-all duration-200 hover:translate-y-0.5 hover:rounded-lg hover:bg-white"
+        className="h-auto w-auto p-1 transition-all duration-200 hover:translate-y-0.5 hover:rounded-lg"
       />
     </a>
   )

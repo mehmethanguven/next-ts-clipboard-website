@@ -401,6 +401,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Bai Jamjuree',
         'ui-sans-serif',
         'system-ui',
         '-apple-system',
@@ -415,7 +416,6 @@ module.exports = {
         '"Segoe UI Emoji"',
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
-        'Bai Jamjuree',
       ],
       serif: [
         'ui-serif',
