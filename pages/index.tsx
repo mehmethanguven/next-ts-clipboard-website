@@ -10,6 +10,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero section */}
+
       <Hero />
       {/* // <!-- Snippets Section --> */}
       <Snippets />

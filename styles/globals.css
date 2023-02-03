@@ -3,15 +3,27 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply !scroll-smooth;
+  }
+
+  body {
+    background-image: url('/images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media screen(sm) {
+    body {
+      background-image: url('/images/bg-header-mobile.png');
+    }
+  }
   h3 {
     @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
   }
   h5 {
     @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
   }
-  /* p {
-    @apply max-w-md mx-auto mb-24 text-xl text-grayishBlue;
-  } */
 
   @font-face {
     font-family: 'Satoshi';
@@ -25,7 +37,7 @@
 
 @layer components {
   .btn {
-    @apply px-4 py-2 m-2 font-bold rounded;
+    @apply m-2 rounded px-4 py-2 font-bold;
   }
   .sm {
     @apply px-2;
@@ -46,102 +58,90 @@
   /*button colors: default, primary, info, success, warning, danger, dark */
 
   .filled {
-    @apply text-white bg-cyan-500;
+    @apply bg-cyan-500 text-white;
   }
   .filled:hover {
-    @apply text-white bg-cyan-600;
+    @apply bg-cyan-600 text-white;
   }
   .gradient {
-    @apply text-gray-800 bg-cyan-500;
+    @apply bg-cyan-500 text-gray-800;
   }
   .outlined {
-    @apply text-gray-700 border border-gray-300 hover:border-gray-400 active:bg-gray-100 active:text-gray-700/80;
+    @apply border border-gray-300 text-gray-700 hover:border-gray-400 active:bg-gray-100 active:text-gray-700/80;
   }
   .text {
-    @apply text-gray-800 bg-transparent;
+    @apply bg-transparent text-gray-800;
   }
   .default {
-    @apply text-gray-800 bg-gray-100;
+    @apply bg-gray-100 text-gray-800;
   }
   .default:hover {
-    @apply text-gray-800 bg-gray-200;
+    @apply bg-gray-200 text-gray-800;
   }
 
   .primary {
-    @apply text-white bg-bleed-blue;
+    @apply bg-bleed-blue text-white;
   }
   .primary:hover {
-    @apply text-white bg-blue-600;
+    @apply bg-blue-600 text-white;
   }
 
   .secondary {
-    @apply text-white bg-gray-700;
+    @apply bg-gray-700 text-white;
   }
   .secondary:hover {
-    @apply text-white bg-gray-500;
+    @apply bg-gray-500 text-white;
   }
 
   .success {
-    @apply text-white bg-green-500;
+    @apply bg-green-500 text-white;
   }
   .success:hover {
-    @apply text-white bg-green-600;
+    @apply bg-green-600 text-white;
   }
 
   .info {
-    @apply text-white bg-blue-500;
+    @apply bg-blue-500 text-white;
   }
   .info:hover {
-    @apply text-white bg-blue-600;
+    @apply bg-blue-600 text-white;
   }
 
   .warning {
-    @apply text-white bg-yellow-400;
+    @apply bg-yellow-400 text-white;
   }
   .warning:hover {
-    @apply text-white bg-yellow-500;
+    @apply bg-yellow-500 text-white;
   }
 
   .danger {
-    @apply text-white bg-red-500;
+    @apply bg-red-500 text-white;
   }
   .danger:hover {
-    @apply text-white bg-red-600;
+    @apply bg-red-600 text-white;
   }
 
   .dark {
-    @apply text-white bg-gray-800;
+    @apply bg-gray-800 text-white;
   }
   .dark:hover {
-    @apply text-white bg-gray-900;
+    @apply bg-gray-900 text-white;
   }
 
   .disabled {
-    @apply opacity-50 cursor-not-allowed;
+    @apply cursor-not-allowed opacity-50;
   }
   .disabled:hover {
-    @apply opacity-50 cursor-not-allowed;
-  }
-}
-
-body {
-  background-image: url('/images/bg-header-desktop.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-@media screen(sm) {
-  body {
-    background-image: url('/images/bg-header-mobile.png');
+    @apply cursor-not-allowed opacity-50;
   }
 }
 
 .section-container {
-  @apply max-w-6xl px-10 mx-auto text-center;
+  @apply mx-auto max-w-6xl px-10 text-center;
 }
 
 .button-container {
-  @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+  @apply flex w-full flex-col justify-center space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
 }
 /* Hamburger Menu */
 .hamburger {

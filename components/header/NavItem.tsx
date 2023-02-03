@@ -10,11 +10,14 @@ type Props = {
 const NavItem = ({ title, url, close }: Props) => {
   return (
     <div className="flex flex-col space-y-4 text-center md:text-left">
-      <div>
-        <Link href={url} onClick={close} className="hover:text-strongCyan">
-          {title}
-        </Link>
-      </div>
+      <Link
+        href={url}
+        onClick={close}
+        className="hover:text-strongCyan "
+        scroll={true}
+      >
+        {title}
+      </Link>
     </div>
   )
 }

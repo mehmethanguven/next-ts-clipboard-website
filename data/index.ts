@@ -2,10 +2,10 @@ import { INavLink, ISocialLink } from 'types'
 
 export const headerNavLinks: INavLink[] = [
   { title: 'Home', url: '/' },
-  { title: 'Features', url: '#features' },
-  { title: 'Access', url: '#access' },
-  { title: 'Supercharge', url: '#supercharge' },
-  { title: 'Bottom', url: '#bottom' },
+  { title: 'Features', url: '/#features' },
+  { title: 'Access', url: '/#access' },
+  { title: 'Supercharge', url: '/#supercharge' },
+  { title: 'Bottom', url: '/#bottom' },
   { title: 'About Us', url: 'about' },
 ]
 
